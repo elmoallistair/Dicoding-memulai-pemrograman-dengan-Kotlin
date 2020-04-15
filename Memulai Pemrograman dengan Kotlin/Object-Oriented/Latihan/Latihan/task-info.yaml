@@ -1,0 +1,46 @@
+type: output
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 408
+    length: 24
+    placeholder_text: val gippy = Cat("")
+    initial_state:
+      length: 19
+      offset: 159
+    initialized_from_dependency: false
+    possible_answer: val gippy = Cat("Gippy")
+    selected: true
+    status: Solved
+  text: |-
+    // TODO 1
+    class Cat(private val name: String) {
+        var sleep: Boolean = false
+
+        fun toSleep() {
+            println()
+        }
+    }
+
+    fun main() {
+
+        // TODO 2
+        val gippy = Cat("")
+
+        gippy.toSleep()
+        gippy.sleep = true
+        gippy.toSleep()
+    }
+  learner_created: false
+- name: test/output.txt
+  visible: false
+  text: |-
+    Fungsi getter dipanggil
+    Gippy, let's play!
+    Fungsi setter dipanggil
+    Fungsi getter dipanggil
+    Gippy, sleep!
+  learner_created: false
+status: Solved
+record: -1

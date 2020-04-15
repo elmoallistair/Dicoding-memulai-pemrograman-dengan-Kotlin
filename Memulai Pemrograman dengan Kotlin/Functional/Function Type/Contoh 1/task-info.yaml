@@ -1,0 +1,20 @@
+type: theory
+custom_name: Contoh 1
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    val sum: (Int, Int) -> Int = { valueA, valueB -> valueA + valueB }
+
+    val multiply: (Int, Int) -> Int = { valueA, valueB -> valueA * valueB }
+
+    fun main() {
+        val sumResult = sum.invoke(10, 10)
+        val multiplyResult = multiply.invoke(20, 20)
+
+        println(sumResult)
+        println(multiplyResult)
+    }
+  learner_created: false
+status: Solved
+record: -1

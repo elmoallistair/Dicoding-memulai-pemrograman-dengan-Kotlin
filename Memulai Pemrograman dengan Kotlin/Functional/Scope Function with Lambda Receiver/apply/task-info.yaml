@@ -1,0 +1,16 @@
+type: theory
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+        val message = StringBuilder().apply {
+            append("Hello ")
+            append("Kotlin!")
+        }
+
+        println(message.toString())
+    }
+  learner_created: false
+status: Solved
+record: -1

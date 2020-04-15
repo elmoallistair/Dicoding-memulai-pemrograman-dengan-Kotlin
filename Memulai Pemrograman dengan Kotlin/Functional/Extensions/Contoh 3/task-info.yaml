@@ -1,0 +1,16 @@
+type: theory
+custom_name: Contoh 3
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        println(10.slice)
+    }
+
+    val Int.slice: Int
+        get() = this / 2
+  learner_created: false
+status: Solved
+record: -1

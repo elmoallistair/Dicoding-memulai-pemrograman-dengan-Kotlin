@@ -1,0 +1,20 @@
+type: theory
+custom_name: Contoh 4
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        printResult(10){ value ->
+            value + value
+        }
+    }
+
+    fun printResult(value: Int, sum: (Int) -> Int) {
+        val result = sum(value)
+        println(result)
+    }
+  learner_created: false
+status: Solved
+record: -1

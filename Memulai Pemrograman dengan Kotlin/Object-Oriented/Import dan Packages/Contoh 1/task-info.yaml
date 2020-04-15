@@ -1,0 +1,19 @@
+type: theory
+custom_name: Contoh 1
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    import kotlin.math.PI
+    import kotlin.math.cos
+    import kotlin.math.sqrt
+
+    // main function
+    fun main(){
+        println(PI)
+        println(cos(120.0))
+        println(sqrt(9.0))
+    }
+  learner_created: false
+status: Solved
+record: -1

@@ -1,0 +1,13 @@
+type: theory
+custom_name: Elvis Operator
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    fun main() {
+        val text: String? = null
+        val textLength = text?.length ?: 7
+    }
+  learner_created: false
+status: Solved
+record: -1

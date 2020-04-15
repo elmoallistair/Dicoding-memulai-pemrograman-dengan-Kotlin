@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Object-Oriented-Inheritances-Contoh" external.linked.project.path="$MODULE_DIR$/../../../../../Object-Oriented/Inheritances/Contoh" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Memulai_Pemrograman_dengan_Kotlin" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Object-Oriented/Inheritances/Contoh">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Object-Oriented/Inheritances/Contoh/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Object-Oriented/Inheritances/Contoh/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Object-Oriented/Inheritances/Contoh/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

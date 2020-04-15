@@ -1,0 +1,5 @@
+Fungsi getter dipanggil
+Gippy, let's play!
+Fungsi setter dipanggil
+Fungsi getter dipanggil
+Gippy, sleep!

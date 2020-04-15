@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Data_Class_dan_Collections-Data_Class-Copying_data_class_objects" external.linked.project.path="$MODULE_DIR$/../../../../../Data Class dan Collections/Data Class/Copying data class objects" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Memulai_Pemrograman_dengan_Kotlin" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Data Class dan Collections/Data Class/Copying data class objects">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Data Class dan Collections/Data Class/Copying data class objects/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Data Class dan Collections/Data Class/Copying data class objects/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Data Class dan Collections/Data Class/Copying data class objects/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

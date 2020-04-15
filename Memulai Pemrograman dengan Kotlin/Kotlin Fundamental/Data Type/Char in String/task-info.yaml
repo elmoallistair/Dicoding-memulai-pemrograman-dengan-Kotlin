@@ -1,0 +1,16 @@
+type: theory
+custom_name: Char in String
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val text  = "Kotlin"
+        for (char in text){
+            print("$char ")
+        }
+    }
+  learner_created: false
+status: Solved
+record: -1

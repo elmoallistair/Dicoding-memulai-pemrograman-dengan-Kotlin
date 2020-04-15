@@ -1,0 +1,18 @@
+title: Memulai Pemrograman dengan Kotlin
+language: English
+summary: |-
+  Memulai Pemrograman dengan Kotlin adalah kelas pengantar untuk mempelajari Functional Programming serta Object-Oriented Programming menggunakan Kotlin.
+
+  Pada project ini Anda akan mengerjakan beberapa latihan seperti: 1. Membangun dan Menjalankan Program Kotlin; 2. Kotlin Fundamental; 3. Control Flow; 4. Data Class dan Collections; 5. Functional; 6. Object-Oriented; 7. Generic; 8. Coroutines.
+programming_language: Kotlin
+programming_language_version: 1.3
+content:
+- Membangun dan Menjalankan Program Kotlin
+- Kotlin Fundamental
+- Control Flow
+- Data Class dan Collections
+- Functional
+- Object-Oriented
+- Generics
+- Coroutines
+mode: Study

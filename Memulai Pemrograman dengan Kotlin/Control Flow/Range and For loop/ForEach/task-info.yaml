@@ -1,0 +1,17 @@
+type: theory
+custom_name: ForEach
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val ranges = 1.rangeTo(10) step 3
+
+        ranges.forEach { value ->
+            println("value is $value!")
+        }
+    }
+  learner_created: false
+status: Solved
+record: -1

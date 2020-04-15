@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Data_Class_dan_Collections-Collections_Operations-sum" external.linked.project.path="$MODULE_DIR$/../../../../../Data Class dan Collections/Collections Operations/sum" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Memulai_Pemrograman_dengan_Kotlin" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Data Class dan Collections/Collections Operations/sum">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Data Class dan Collections/Collections Operations/sum/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Data Class dan Collections/Collections Operations/sum/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Data Class dan Collections/Collections Operations/sum/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

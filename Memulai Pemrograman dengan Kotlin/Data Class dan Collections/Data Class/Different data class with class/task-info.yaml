@@ -1,0 +1,20 @@
+type: theory
+custom_name: Different data class with class
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    class User(val name : String, val age : Int)
+
+    data class DataUser(val name : String, val age : Int)
+
+    fun main(){
+        val user = User("nrohmen", 17)
+        val dataUser = DataUser("nrohmen", 17)
+
+        println(user)
+        println(dataUser)
+    }
+  learner_created: false
+status: Solved
+record: -1

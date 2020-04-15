@@ -1,0 +1,18 @@
+type: theory
+custom_name: sorted
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val kotlinChar = listOf('k', 'o', 't', 'l', 'i', 'n')
+        val ascendingSort = kotlinChar.sorted()
+        val descendingSort = kotlinChar.sortedDescending()
+
+        println(ascendingSort)
+        println(descendingSort)
+    }
+  learner_created: false
+status: Solved
+record: -1

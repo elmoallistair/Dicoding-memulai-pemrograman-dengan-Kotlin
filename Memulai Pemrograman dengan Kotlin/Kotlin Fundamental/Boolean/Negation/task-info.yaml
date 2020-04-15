@@ -1,0 +1,21 @@
+type: theory
+custom_name: Negation
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val officeOpen = 7
+        val now = 10
+        val isOpen = now > officeOpen
+
+        if (!isOpen) {
+            print("Office is closed")
+        } else {
+            print("Office is open")
+        }
+    }
+  learner_created: false
+status: Solved
+record: -1

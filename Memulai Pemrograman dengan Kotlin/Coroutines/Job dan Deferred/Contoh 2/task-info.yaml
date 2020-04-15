@@ -1,0 +1,20 @@
+type: theory
+custom_name: Contoh 2
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    import kotlinx.coroutines.*
+
+    fun main() = runBlocking {
+        val job = launch(start = CoroutineStart.LAZY) {
+            delay(1000L)
+            println("Start new job!")
+        }
+
+        job.start()
+        println("Other task")
+    }
+  learner_created: false
+status: Solved
+record: -1

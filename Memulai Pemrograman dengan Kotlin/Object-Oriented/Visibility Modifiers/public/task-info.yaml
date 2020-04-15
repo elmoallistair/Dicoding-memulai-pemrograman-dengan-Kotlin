@@ -1,0 +1,18 @@
+type: theory
+custom_name: public
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    class Animal(val name: String, val weight: Double, val age: Int, val isMammal: Boolean = true)
+
+    fun main() {
+        val dicodingCat = Animal("Dicoding Miaw", 2.2, 2)
+        dicodingCat.name
+        dicodingCat.weight
+        dicodingCat.age
+        dicodingCat.isMammal
+    }
+  learner_created: false
+status: Solved
+record: -1

@@ -1,0 +1,18 @@
+type: theory
+custom_name: Do While
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        var counter = 1
+
+        do {
+            println("Hello, World!")
+            counter++
+        } while (counter <= 7)
+    }
+  learner_created: false
+status: Solved
+record: -1

@@ -1,0 +1,16 @@
+type: theory
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+        val numbers = 1.rangeTo(10)
+        val evenNumbers = numbers.filter(Int::isEvenNumber)
+
+        println(evenNumbers)
+    }
+
+    fun Int.isEvenNumber() = this % 2 == 0
+  learner_created: false
+status: Solved
+record: -1

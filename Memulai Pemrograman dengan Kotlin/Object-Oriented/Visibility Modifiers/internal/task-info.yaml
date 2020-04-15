@@ -1,0 +1,15 @@
+type: theory
+custom_name: internal
+files:
+- name: src/App.kt
+  visible: true
+  text: |+
+    internal class Animal(val name: String)
+
+    fun main() {
+        println("internal visibility modifier")
+    }
+
+  learner_created: false
+status: Solved
+record: -1

@@ -1,0 +1,21 @@
+type: theory
+custom_name: Thread Pool
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    import kotlinx.coroutines.*
+
+    @ObsoleteCoroutinesApi
+    fun main() = runBlocking<Unit> {
+        val dispatcher = newFixedThreadPoolContext(3, "myPool")
+
+        launch(dispatcher) {
+            println("Starting in ${Thread.currentThread().name}")
+            delay(1000)
+            println("Resuming in ${Thread.currentThread().name}")
+        }.start()
+    }
+  learner_created: false
+status: Solved
+record: -1

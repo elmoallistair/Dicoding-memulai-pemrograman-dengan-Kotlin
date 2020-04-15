@@ -1,0 +1,19 @@
+type: theory
+custom_name: Single Thread Context
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    import kotlinx.coroutines.*
+
+    fun main() = runBlocking<Unit> {
+        val dispatcher = newSingleThreadContext("myThread")
+        launch(dispatcher) {
+            println("Starting in ${Thread.currentThread().name}")
+            delay(1000)
+            println("Resuming in ${Thread.currentThread().name}")
+        }.start()
+    }
+  learner_created: false
+status: Solved
+record: -1

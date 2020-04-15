@@ -1,0 +1,94 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 125
+    length: 99
+    placeholder_text: println()
+    initial_state:
+      length: 9
+      offset: 125
+    initialized_from_dependency: false
+    possible_answer: |-
+      println("""
+              String result: $stringResult
+              Int result: $intResult
+          """.trimIndent())
+    selected: true
+    status: Solved
+  - offset: 276
+    length: 104
+    placeholder_text: return 0
+    initial_state:
+      length: 8
+      offset: 186
+    initialized_from_dependency: false
+    possible_answer: |-
+      return when (args) {
+              is Int -> args * 5
+              is String -> args.length
+              else -> 0
+          }
+    selected: true
+    status: Solved
+  text: |-
+    // Coming Soon
+    fun main() {
+        val stringResult = getResult("Kotlin")
+        val intResult = getResult(100)
+
+        // TODO 2
+        println()
+    }
+
+    // TODO 1
+    fun <T> getResult(args: T): Int {
+        return 0
+    }
+  learner_created: false
+- name: test/Tests.kt
+  visible: false
+  text: |-
+    import org.junit.Assert
+    import org.junit.Test
+
+    class Test {
+
+        private fun <T> checkFunction(args: T) {
+            val result = when (args) {
+                is String -> args.length
+                is Int -> args * 5
+                else -> 0
+            }
+
+            Assert.assertEquals("Fungsi getResult seharusnya mengembalikan nilai $result", result, getResult(args))
+        }
+
+        @Test
+        fun test1() = checkFunction("Kotlin")
+
+        @Test
+        fun test2() = checkFunction(true)
+
+        @Test
+        fun test3() = checkFunction(10)
+
+        @Test
+        fun test4() = checkFunction(0x01)
+
+        @Test
+        fun test5() = checkFunction(false)
+
+        @Test
+        fun test6() = checkFunction(10L)
+
+        @Test
+        fun test7() = checkFunction('A')
+
+        @Test
+        fun test8() = checkFunction(100110)
+    }
+  learner_created: false
+status: Solved
+record: -1

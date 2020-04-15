@@ -1,0 +1,15 @@
+type: theory
+custom_name: String Template
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val name = "Kotlin"
+        val old = 19
+        print("My name is $name, im $old years old")
+    }
+  learner_created: false
+status: Solved
+record: -1

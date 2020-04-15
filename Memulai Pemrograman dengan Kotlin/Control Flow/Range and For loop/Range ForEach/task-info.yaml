@@ -1,0 +1,19 @@
+type: theory
+custom_name: Range ForEach
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val rangeInt = 1..10 step 2
+
+        rangeInt.forEach {
+            print("$it ")
+        }
+
+        println(rangeInt.step)
+    }
+  learner_created: false
+status: Solved
+record: -1

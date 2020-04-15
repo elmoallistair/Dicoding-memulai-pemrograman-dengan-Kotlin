@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Control_Flow-Enumeration-Enumeration" external.linked.project.path="$MODULE_DIR$/../../../../../Control Flow/Enumeration/Enumeration" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Memulai_Pemrograman_dengan_Kotlin" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Control Flow/Enumeration/Enumeration">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Control Flow/Enumeration/Enumeration/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Control Flow/Enumeration/Enumeration/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Control Flow/Enumeration/Enumeration/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

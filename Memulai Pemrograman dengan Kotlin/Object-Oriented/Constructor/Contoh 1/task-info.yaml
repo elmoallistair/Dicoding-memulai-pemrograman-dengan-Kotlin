@@ -1,0 +1,15 @@
+type: theory
+custom_name: Contoh 1
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    class Animal(val name: String, val weight: Double, val age: Int, val isMammal: Boolean)
+
+    fun main() {
+        val dicodingCat = Animal("Dicoding Miaw", 4.2, 2, true)
+        println("Nama: ${dicodingCat.name}, Berat: ${dicodingCat.weight}, Umur: ${dicodingCat.age}, mamalia: ${dicodingCat.isMammal}")
+    }
+  learner_created: false
+status: Solved
+record: -1

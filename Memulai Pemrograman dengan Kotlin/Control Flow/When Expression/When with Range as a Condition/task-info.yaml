@@ -1,0 +1,20 @@
+type: theory
+custom_name: When with Range as a Condition
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val value =  27
+        val ranges = 10..50
+
+        when(value){
+            in ranges -> println("value is in the range")
+            !in ranges -> println("value is outside the range")
+            else -> println("value undefined")
+        }
+    }
+  learner_created: false
+status: Solved
+record: -1

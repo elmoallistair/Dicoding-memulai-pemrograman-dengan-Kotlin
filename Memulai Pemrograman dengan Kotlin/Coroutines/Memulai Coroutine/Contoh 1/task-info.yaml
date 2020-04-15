@@ -1,0 +1,21 @@
+type: theory
+custom_name: Contoh 1
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    import kotlinx.coroutines.delay
+    import kotlinx.coroutines.launch
+    import kotlinx.coroutines.runBlocking
+
+    fun main() = runBlocking{
+        launch {
+            delay(1000L)
+            println("Coroutines!")
+        }
+        println("Hello,")
+        delay(2000L)
+    }
+  learner_created: false
+status: Solved
+record: -1

@@ -1,0 +1,18 @@
+type: theory
+custom_name: let
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val message: String? = null
+        message?.let {
+            val length = it.length * 2
+            val text = "text length $length"
+            println(text)
+        }
+    }
+  learner_created: false
+status: Solved
+record: -1

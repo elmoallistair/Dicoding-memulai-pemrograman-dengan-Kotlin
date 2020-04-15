@@ -1,0 +1,18 @@
+type: theory
+custom_name: Contoh 1
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val number = sumNumbers(10, 20, 30, 40)
+        print(number)
+    }
+
+    fun sumNumbers(vararg number: Int): Int {
+        return number.sum()
+    }
+  learner_created: false
+status: Solved
+record: -1

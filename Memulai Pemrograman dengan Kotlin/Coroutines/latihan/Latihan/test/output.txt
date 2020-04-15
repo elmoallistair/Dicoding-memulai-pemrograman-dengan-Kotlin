@@ -1,0 +1,3 @@
+Counting...
+Result sum: 20
+Result multiple: 400

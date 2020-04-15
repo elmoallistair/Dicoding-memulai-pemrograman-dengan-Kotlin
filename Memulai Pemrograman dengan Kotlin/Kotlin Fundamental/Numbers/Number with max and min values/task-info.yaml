@@ -1,0 +1,16 @@
+type: theory
+custom_name: Number with max and min values
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    fun main() {
+        val maxInt = Int.MAX_VALUE
+        val minInt = Int.MIN_VALUE
+
+        println(maxInt)
+        println(minInt)
+    }
+  learner_created: false
+status: Solved
+record: -1

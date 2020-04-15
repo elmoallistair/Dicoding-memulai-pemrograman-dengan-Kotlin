@@ -1,0 +1,8 @@
+content:
+- When
+- When with Else block
+- When as a Expression
+- Multiple statement in Condition block
+- When with `is` operator
+- When with Range as a Condition
+- When subject

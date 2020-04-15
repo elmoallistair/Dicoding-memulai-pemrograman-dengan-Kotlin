@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Control_Flow-While_and_Do_While-Infinite_While" external.linked.project.path="$MODULE_DIR$/../../../../../Control Flow/While and Do While/Infinite While" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Memulai_Pemrograman_dengan_Kotlin" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Control Flow/While and Do While/Infinite While">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Control Flow/While and Do While/Infinite While/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Control Flow/While and Do While/Infinite While/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Control Flow/While and Do While/Infinite While/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

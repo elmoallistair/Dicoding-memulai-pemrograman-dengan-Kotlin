@@ -1,0 +1,14 @@
+type: theory
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+        val total = listOf(1, 2, 3, 4, 5, 6)
+        val take = total.takeLast(3)
+
+        println(take)
+    }
+  learner_created: false
+status: Solved
+record: -1

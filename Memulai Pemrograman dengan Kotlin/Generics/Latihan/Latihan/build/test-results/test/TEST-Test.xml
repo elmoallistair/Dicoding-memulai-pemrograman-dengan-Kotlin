@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-13T03:14:55" hostname="ELMO" time="0.007">
+  <properties/>
+  <testcase name="test1" classname="Test" time="0.003"/>
+  <testcase name="test2" classname="Test" time="0.0"/>
+  <testcase name="test3" classname="Test" time="0.001"/>
+  <testcase name="test4" classname="Test" time="0.0"/>
+  <testcase name="test5" classname="Test" time="0.0"/>
+  <testcase name="test6" classname="Test" time="0.0"/>
+  <testcase name="test7" classname="Test" time="0.0"/>
+  <testcase name="test8" classname="Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

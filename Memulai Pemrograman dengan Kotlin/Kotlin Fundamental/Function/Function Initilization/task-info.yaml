@@ -1,0 +1,22 @@
+type: theory
+custom_name: Function Initilization
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val user = setUser("Alfian", 19)
+        println(user)
+
+        printUser("Alfian")
+    }
+
+    fun setUser(name: String, age: Int) = "Your name is $name, and you $age years old"
+
+    fun printUser(name: String) {
+        println("Your name is $name")
+    }
+  learner_created: false
+status: Solved
+record: -1

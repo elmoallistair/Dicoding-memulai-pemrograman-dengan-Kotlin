@@ -1,0 +1,18 @@
+type: theory
+custom_name: Contoh 2
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val fullName = getFullName(middle = " is " , first = "Kotlin", last = "Awesome")
+        print(fullName)
+    }
+
+    fun getFullName(first: String, middle: String, last: String): String {
+        return "$first $middle $last"
+    }
+  learner_created: false
+status: Solved
+record: -1

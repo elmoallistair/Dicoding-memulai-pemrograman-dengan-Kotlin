@@ -1,0 +1,4 @@
+Vehicle
+Type: Motorcycle
+Maximal Speed: 230Km/s
+Maximal Tank: 10Ltr

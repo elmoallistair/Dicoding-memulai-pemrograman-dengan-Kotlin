@@ -1,0 +1,19 @@
+type: theory
+custom_name: Contoh 2
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val someString = "123"
+        val someInt = someString.toInt()
+        val someOtherString = "12.34"
+        val someDouble = someOtherString.toDouble()
+
+        println(someInt is Int)
+        println(someDouble is Double)
+    }
+  learner_created: false
+status: Solved
+record: -1

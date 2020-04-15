@@ -1,0 +1,21 @@
+type: theory
+custom_name: Contoh 1
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    import kotlinx.coroutines.*
+
+    fun main() = runBlocking {
+
+        // menggunakan launch()
+        val jobLaunch = launch {
+            // do background task here }
+        }
+
+        // menggunakan job()
+        val job = Job()
+    }
+  learner_created: false
+status: Solved
+record: -1

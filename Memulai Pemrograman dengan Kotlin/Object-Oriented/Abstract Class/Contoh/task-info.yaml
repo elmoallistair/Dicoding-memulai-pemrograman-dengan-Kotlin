@@ -1,0 +1,23 @@
+type: theory
+custom_name: Contoh
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    abstract class Animal(var name: String, var weight: Double, var age: Int, var isCarnivore: Boolean){
+
+        fun eat(){
+            println("$name sedang makan!")
+        }
+
+        fun sleep(){
+            println("$name sedang tidur!")
+        }
+    }
+
+    fun main() {
+        println("Abstract Class")
+    }
+  learner_created: false
+status: Solved
+record: -1

@@ -1,0 +1,8 @@
+content:
+- filter and filterNot
+- map
+- count
+- find
+- first
+- sum
+- sorted

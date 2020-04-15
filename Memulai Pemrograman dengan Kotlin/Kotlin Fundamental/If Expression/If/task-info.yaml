@@ -1,0 +1,17 @@
+type: theory
+custom_name: If
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val officeOpen = 7
+        val now = 20
+        if (now > officeOpen) {
+            println("office already open")
+        }
+    }
+  learner_created: false
+status: Solved
+record: -1

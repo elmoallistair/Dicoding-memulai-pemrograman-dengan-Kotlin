@@ -1,0 +1,14 @@
+type: theory
+custom_name: Escaped String
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // type your solution here
+    fun main() {
+        val statement = "Kotlin is \"Awesome!\""
+        println(statement)
+    }
+  learner_created: false
+status: Solved
+record: -1

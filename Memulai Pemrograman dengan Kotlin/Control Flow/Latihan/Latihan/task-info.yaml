@@ -1,0 +1,66 @@
+type: output
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 109
+    length: 27
+    placeholder_text: if (false) continue
+    initial_state:
+      length: 19
+      offset: 109
+    initialized_from_dependency: false
+    possible_answer: if (number % 2 == 0) continue
+    selected: true
+    status: Solved
+  - offset: 164
+    length: 22
+    placeholder_text: if (false) continue
+    initial_state:
+      length: 19
+      offset: 156
+    initialized_from_dependency: false
+    possible_answer: if (number > 15) break
+    selected: false
+    status: Solved
+  - offset: 214
+    length: 35
+    placeholder_text: val result =0
+    initial_state:
+      length: 13
+      offset: 203
+    initialized_from_dependency: false
+    possible_answer: val result = number * (number + 10)
+    selected: true
+    status: Solved
+  text: |-
+    fun main() {
+        val listNumber = 1.rangeTo(100)
+
+        for (number in listNumber) {
+            // TODO 1
+            if (false) continue
+
+            // TODO 2
+            if (false) continue
+
+            // TODO 3
+            val result =0
+            println("range result is $result")
+        }
+    }
+  learner_created: false
+- name: test/output.txt
+  visible: false
+  text: |-
+    range result is 11
+    range result is 39
+    range result is 75
+    range result is 119
+    range result is 171
+    range result is 231
+    range result is 299
+    range result is 375
+  learner_created: false
+status: Solved
+record: -1

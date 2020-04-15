@@ -1,0 +1,19 @@
+type: theory
+custom_name: apply
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // type your solution here
+
+    fun main() {
+        val message = StringBuilder().apply {
+            append("Hello ")
+            append("Kotlin!")
+        }
+
+        println(message.toString())
+    }
+  learner_created: false
+status: Solved
+record: -1

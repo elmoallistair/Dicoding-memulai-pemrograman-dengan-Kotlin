@@ -1,0 +1,53 @@
+type: output
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 370
+    length: 45
+    placeholder_text: val result = 0
+    initial_state:
+      length: 14
+      offset: 370
+    initialized_from_dependency: false
+    possible_answer: |-
+      val valueCNotNull = if (valueC == null){
+              50
+          } else {
+              valueC
+          }
+
+          val valueA = valueA
+          val valueB = valueB
+          val result = valueA + (valueB - (valueC ?: 50))
+    selected: true
+    status: Solved
+  text: |-
+    fun main() {
+        val valueA = 101
+        val valueB = 52
+        val valueC = 99
+
+        val resultA = calculateResult(valueA, valueB, valueC)
+        val resultB = calculateResult(valueA, valueB, null)
+
+        println("""
+            ResultA is $resultA
+            ResultB is $resultB
+        """.trimIndent())
+    }
+
+    fun calculateResult(valueA: Int, valueB: Int, valueC: Int?): Int {
+        // TODO
+        val result = 0
+        return result
+    }
+  learner_created: false
+- name: test/output.txt
+  visible: false
+  text: |-
+    ResultA is 54
+    ResultB is 103
+  learner_created: false
+status: Solved
+record: -1

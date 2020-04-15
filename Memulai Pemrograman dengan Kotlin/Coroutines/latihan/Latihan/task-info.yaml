@@ -1,0 +1,86 @@
+type: output
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 39
+    length: 93
+    placeholder_text: |-
+      fun sum(valueA: Int, valueB: Int): Int {
+          return 0
+      }
+    initial_state:
+      length: 55
+      offset: 39
+    initialized_from_dependency: false
+    possible_answer: |-
+      suspend fun sum(valueA: Int, valueB: Int): Int {
+          delay(3000)
+          return valueA + valueB
+      }
+    selected: true
+    status: Solved
+  - offset: 144
+    length: 98
+    placeholder_text: |-
+      fun multiple(valueA: Int, valueB: Int): Int {
+          return 0
+      }
+    initial_state:
+      length: 60
+      offset: 106
+    initialized_from_dependency: false
+    possible_answer: |-
+      suspend fun multiple(valueA: Int, valueB: Int): Int {
+          delay(2000)
+          return valueA * valueB
+      }
+    selected: true
+    status: Solved
+  - offset: 413
+    length: 125
+    placeholder_text: println()
+    initial_state:
+      length: 9
+      offset: 337
+    initialized_from_dependency: false
+    possible_answer: |-
+      println("""
+              Result sum: ${resultSum.await()}
+              Result multiple: ${resultMultiple.await()}
+          """.trimIndent())
+    selected: true
+    status: Solved
+  text: |-
+    import kotlinx.coroutines.*
+
+    // TODO 1
+    fun sum(valueA: Int, valueB: Int): Int {
+        return 0
+    }
+
+    // TODO 2
+    fun multiple(valueA: Int, valueB: Int): Int {
+        return 0
+    }
+
+    fun main() = runBlocking {
+
+        println("Counting...")
+
+        val resultSum = async { sum(10, 10) }
+        val resultMultiple = async { multiple(20, 20) }
+
+        // TODO 3
+        println()
+    }
+  learner_created: false
+- name: test/output.txt
+  visible: false
+  text: |-
+    Counting...
+    Result sum: 20
+    Result multiple: 400
+  learner_created: false
+status: Solved
+record: -1

@@ -1,0 +1,16 @@
+type: theory
+custom_name: Range with `!in` Operator
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val tenToOne = 10.downTo(1)
+        if (11 !in tenToOne) {
+            println("No value 11 in Range ")
+        }
+    }
+  learner_created: false
+status: Solved
+record: -1

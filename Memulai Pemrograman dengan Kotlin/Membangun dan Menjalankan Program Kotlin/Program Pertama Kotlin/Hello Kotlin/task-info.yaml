@@ -1,0 +1,12 @@
+type: theory
+custom_name: Hello Kotlin
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    fun main() {
+        print("Hello Kotlin!")
+    }
+  learner_created: false
+status: Solved
+record: -1

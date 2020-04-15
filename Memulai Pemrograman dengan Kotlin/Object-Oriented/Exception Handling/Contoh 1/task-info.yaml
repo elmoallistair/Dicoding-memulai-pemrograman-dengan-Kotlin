@@ -1,0 +1,22 @@
+type: theory
+custom_name: Contoh 1
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val someNullValue: String? = null
+        lateinit var someMustNotNullValue: String
+
+        try {
+            someMustNotNullValue = someNullValue!!
+            println(someMustNotNullValue)
+        } catch (e: Exception) {
+            someMustNotNullValue = "Nilai String Null"
+            println(someMustNotNullValue)
+        }
+    }
+  learner_created: false
+status: Solved
+record: -1

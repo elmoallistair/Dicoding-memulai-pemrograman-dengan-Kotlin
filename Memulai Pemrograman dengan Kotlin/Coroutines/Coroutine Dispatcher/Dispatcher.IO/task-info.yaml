@@ -1,0 +1,21 @@
+type: theory
+custom_name: Dispatcher.IO
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    import kotlinx.coroutines.Dispatchers
+    import kotlinx.coroutines.launch
+    import kotlinx.coroutines.runBlocking
+
+    fun main() = runBlocking {
+
+        launch(Dispatchers.IO) {
+            // TODO: Implement algorithm here
+        }
+
+        println("Dispatcher IO")
+    }
+  learner_created: false
+status: Solved
+record: -1

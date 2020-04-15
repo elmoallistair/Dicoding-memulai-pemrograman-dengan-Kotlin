@@ -1,0 +1,18 @@
+type: theory
+custom_name: Nullable Types
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    fun main() {
+        val text: String? = null
+
+        //val textLength = text.length // compile time error
+
+        if (text != null){
+            val textLength = text.length // ready to go
+        }
+    }
+  learner_created: false
+status: Solved
+record: -1

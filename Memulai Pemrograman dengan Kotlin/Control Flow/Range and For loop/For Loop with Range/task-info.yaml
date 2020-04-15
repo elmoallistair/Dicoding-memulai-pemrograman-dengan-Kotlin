@@ -1,0 +1,17 @@
+type: theory
+custom_name: For Loop with Range
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val ranges = 1.rangeTo(5)
+
+        for (i in ranges){
+            println("value is $i!")
+        }
+    }
+  learner_created: false
+status: Solved
+record: -1

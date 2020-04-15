@@ -1,0 +1,17 @@
+type: theory
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+        val text = "Hello"
+        val result = text.run {
+            val from = this
+            val to = this.replace("Hello", "Kotlin")
+            "replace text from $from to $to"
+        }
+        println("result : $result")
+    }
+  learner_created: false
+status: Solved
+record: -1

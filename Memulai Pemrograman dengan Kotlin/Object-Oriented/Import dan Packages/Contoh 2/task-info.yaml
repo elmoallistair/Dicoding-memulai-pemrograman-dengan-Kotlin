@@ -1,0 +1,65 @@
+type: theory
+custom_name: Contoh 2
+files:
+- name: test/Tests.kt
+  visible: false
+  text: |-
+    import org.junit.Assert
+    import org.junit.Test
+
+    class Test {
+        @Test fun testSolution() {
+            //TODO: implement your test here
+            Assert.assertTrue("Tests not implemented for the task", false)
+        }
+    }
+  learner_created: false
+- name: src/com/dicoding/oop/App.kt
+  visible: true
+  text: |-
+    package com.dicoding.oop
+
+    import com.dicoding.oop.utils.PI
+    import com.dicoding.oop.utils.factorial
+    import com.dicoding.oop.utils.pow
+    import com.dicoding.oop.utils.sayHello
+
+    fun main() {
+        sayHello()
+        println(factorial(4.0))
+        println(pow(3.0, 2.0))
+        println(PI)
+    }
+  learner_created: false
+- name: src/com/dicoding/oop/utils/MyMath.kt
+  visible: true
+  text: |-
+    package com.dicoding.oop.utils
+
+    fun sayHello() = println("Hello From package utils")
+
+    const val PI = 3.1415926535  // package level variable
+
+    fun pow(number: Double, power: Double) : Double {
+        var result = 1.0
+        var counter = power
+        while (counter > 0) {
+            result *= number
+            counter--
+        }
+        return result
+    }
+
+    fun factorial(number: Double) : Double {
+        var result = 1.0
+        var counter = 1.0
+        while (counter <= number) {
+            result *= counter
+            counter++
+        }
+
+        return result
+    }
+  learner_created: false
+status: Solved
+record: -1

@@ -1,0 +1,54 @@
+type: theory
+custom_name: Contoh 3
+files:
+- name: src/com/dicoding/oop/App.kt
+  visible: true
+  text: |-
+    package com.dicoding.oop
+
+    import com.dicoding.oop.utils.*
+
+    fun main() {
+        sayHello()
+        println(factorial(4.0))
+        println(pow(3.0, 2.0))
+        println(PI)
+        println(areaOfCircle(13.0))
+    }
+  learner_created: false
+- name: src/com/dicoding/oop/utils/MyMath.kt
+  visible: true
+  text: |
+    package com.dicoding.oop.utils
+
+    fun sayHello() = println("Hello From package utils")
+
+    const val PI = 3.1415926535  // package level variable
+
+    fun pow(number: Double, power: Double) : Double {
+        var result = 1.0
+        var counter = power
+        while (counter > 0) {
+            result *= number
+            counter--
+        }
+        return result
+    }
+
+    fun factorial(number: Double) : Double {
+        var result = 1.0
+        var counter = 1.0
+        while (counter <= number) {
+            result *= counter
+            counter++
+        }
+
+        return result
+    }
+
+    fun areaOfCircle(radius: Double) : Double {
+        return PI * 2 * radius
+    }
+  learner_created: false
+status: Solved
+record: -1

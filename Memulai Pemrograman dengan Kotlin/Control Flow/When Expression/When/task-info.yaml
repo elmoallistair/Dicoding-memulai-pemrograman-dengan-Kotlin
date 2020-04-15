@@ -1,0 +1,19 @@
+type: theory
+custom_name: When
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val value = 7
+
+        when(value){
+            6 -> println("value is 6")
+            7 -> println("value is 7")
+            8 -> println("value is 8")
+        }
+    }
+  learner_created: false
+status: Solved
+record: -1
